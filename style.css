@@ -1,13 +1,95 @@
+body{
+    background-color: #034f84;
+}
+
 header{
     position: fixed;
-    top: 20px;
+    top: 10px;
     width: 100%;
-    margin: 0% 10% 1% 10%;
+    text-align: center;
+}
+
+header img{
+    /* position: fixed; */
+
+
+    border: 3px black solid;
+    width: 100%;
+    margin:2%
+
 }
 
 header .buttons{
-    position: fixed;
-    top: 30px;
-    display: inline;
-    width: 500px;
+        position: relative;
+        bottom: 25vh;
+}
+
+button{
+    margin: 0px 20px 0px 20px;
+    width: 15%;
+    height: 5vh;
+    background-color: #92a8d1;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #f7786b;
+    color: white;
+}
+
+h1{
+    margin-top: 380px;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+}
+
+section{
+    text-align: center;
+    border: 3px black solid;
+    margin: 2%;
+    width: 100%;
+    background-color: #f7786b;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.teamMemberBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #92a8d1;
+    border: 2px black solid;
+    width: 20%;
+
+    margin: 2% 0% 2% 0%;
+    overflow-y: scroll;
+    height: 45vh;
+
+}
+
+.teamMemberBlock img{
+    width: 50%;
+
+    margin-top: 5%;
+
+    border-radius: 50%;
+}
+
+.teamMemberBlock h4{
+    width: 100%;
+}
+
+.teamMemberBlock p{
+    /* max-height: 3%; */
+    width: 90%;
+    height: 40%;
+    /* overflow: hidden; */
+    margin: 1% 1% 1% 1%;
+
+    text-align: justify;
 }
