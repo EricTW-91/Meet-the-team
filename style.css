@@ -1,0 +1,13 @@
+header{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    margin: 0% 10% 1% 10%;
+}
+
+header .buttons{
+    position: fixed;
+    top: 30px;
+    display: inline;
+    width: 500px;
+}
